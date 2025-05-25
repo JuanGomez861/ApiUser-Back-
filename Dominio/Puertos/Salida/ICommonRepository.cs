@@ -10,7 +10,7 @@ namespace Dominio.Puertos.Salida
     {
         Task Add(Tentity entity);
         Task<Tentity> Get(int idEntity);
-        Task<List<Tentity>> GetAll(int idEntity);
+        Task<List<Tentity>> GetAll();
         Task Update(Tentity entity);
         Task Delete(int idEntity);
     }
